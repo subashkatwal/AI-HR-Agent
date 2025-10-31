@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload Resume</title>
+</head>
+<body>
+    <h2>Upload Your Resume</h2>
+    <form 
+        action="https://bloated-kaeden-sleuthlike.ngrok-free.dev/parse_resumes/" 
+        method="POST" 
+        enctype="multipart/form-data"
+    >
+        <label for="resume">Choose PDF Resume:</label>
+        <input type="file" name="resume" id="resume" accept=".pdf" required>
+        <br><br>
+        <button type="submit">Upload Resume</button>
+    </form>
+</body>
+</html>
