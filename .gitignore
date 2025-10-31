@@ -12,6 +12,8 @@ __pycache__/
 /staticfiles/
 /media/
 db.sqlite3
+uploads/
+resumes/
 
 # Virtual environment
 venv/
